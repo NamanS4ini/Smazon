@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Route, Routes, NavLink } from "react-router-dom";
 import Home from './pages/Home';
-import Cart from './pages/Cart';
+import Cart from './pages/Cart' ;
 function App() {
   const [count, setCount] = useState(0)
 
